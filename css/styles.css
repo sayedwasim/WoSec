@@ -46,6 +46,7 @@ img{max-width:100%;width:100%;height:auto;padding:0;margin:0;border:none;display
 .wrapper{width:100%;padding:0 70px;margin:0 auto;}
 .wrapper.no-pad-right{padding-right:0;}
 .content-wrapper{padding:60px 0;}
+.content-wrapper.no-pad-top{padding-top:0;}
 .section-title{font-size:2.25rem;line-height:1.125;margin-bottom:1.5rem;}
 .text-center{text-align:center;}
 .small-wrapper{max-width:472px;margin-left:auto;margin-right:auto;}
@@ -57,7 +58,7 @@ main{position:relative;z-index:10;}
 .summary{font-size:1.5rem;}
 
 /*---------- HEADER ----------*/
-header{padding:46px 0;position:relative;z-index:10;}
+header{padding:46px 0 0 0;position:relative;z-index:10;}
 header .wrapper{display:flex;justify-content:space-between;align-items:center;}
 header .logo{display:block;flex:0 0 425px;
 	-webkit-transform:scale(1);
