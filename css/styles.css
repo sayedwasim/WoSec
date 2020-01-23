@@ -23,8 +23,8 @@ html:after{width:395px;height:343px;right:0;
 	-webkit-background-size:100%;
 	background-size:100%;
 }
-body{color:#99a1b3;font-family: 'Space Mono', monospace;
-	font-size:1.125rem;min-height:928px;line-height:1.5;
+body{color:#99a1b3;font-family: 'Space Mono', monospace;font-size:1.125rem;
+	min-height:928px;line-height:1.5;
 	
 }
 body:after{content:"";position:absolute;left:0;bottom:0;width:100%;height:100%;
@@ -43,7 +43,8 @@ img{max-width:100%;width:100%;height:auto;padding:0;margin:0;border:none;display
 .clearfloat:before,
 .clearfloat:after{content:"";display:table;}
 .clearfloat:after{clear:both;}
-.wrapper{max-width:1600px;width:100%;padding:0 70px;margin:0 auto;}
+.wrapper{width:100%;padding:0 70px;margin:0 auto;}
+.wrapper.no-pad-right{padding-right:0;}
 .content-wrapper{padding:60px 0;}
 .section-title{font-size:2.25rem;line-height:1.125;margin-bottom:1.5rem;}
 .text-center{text-align:center;}
@@ -52,7 +53,8 @@ img{max-width:100%;width:100%;height:auto;padding:0;margin:0;border:none;display
 	-webkit-backface-visibility:hidden;
 	backface-visibility:hidden;
 }
-
+main{position:relative;z-index:10;}
+.summary{font-size:1.5rem;}
 
 /*---------- HEADER ----------*/
 header{padding:46px 0;position:relative;z-index:10;}
@@ -87,3 +89,11 @@ header .logo:hover{
 #main_nav a:hover:after, 
 #main_nav a:focus:after, 
 #main_nav a.active:after{max-width:100%;}
+
+/*---------- WELCOME ----------*/
+#welcome .wrapper{display:flex;justify-content:space-between;align-items:center;}
+#welcome .col.left{padding-right:80px;max-width:700px;}
+#welcome .big-title{font-size:4rem;line-height:60px;color:#fff;}
+#welcome .big-title span{color:#FF07DF;}
+
+.home-slider{max-width:650px;}
