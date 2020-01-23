@@ -48,6 +48,11 @@ img{max-width:100%;width:100%;height:auto;padding:0;margin:0;border:none;display
 .section-title{font-size:2.25rem;line-height:1.125;margin-bottom:1.5rem;}
 .text-center{text-align:center;}
 .small-wrapper{max-width:472px;margin-left:auto;margin-right:auto;}
+#particles{position:fixed;left:0;right:0;top:0;bottom:0;z-index:1;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+}
+
 
 /*---------- HEADER ----------*/
 header{padding:46px 0;position:relative;z-index:10;}
